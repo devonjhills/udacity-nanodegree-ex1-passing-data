@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ListMovies from './ListMovies'
 import './App.css';
 import logo from './logo.svg';
 
@@ -77,7 +78,7 @@ const users = {
 const movies = {
   1: {
     id: 1,
-    name: 'Planet Earth 1',
+    name: 'Planet Earth',
   },
   2: {
     id: 2,
@@ -107,6 +108,11 @@ class App extends Component {
           <h2 className="App-subtitle"> Exercise 1 - Passing Data </h2>
         </header>
         <h2>Favorite Movies</h2>
+        <ListMovies 
+          profiles={profiles} 
+          users={users}
+          movies={movies}
+        />
       </div>
     );
   }
