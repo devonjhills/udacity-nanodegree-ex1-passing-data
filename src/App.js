@@ -104,6 +104,7 @@ class App extends Component {
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
           <h1 className="App-title">ReactND - Coding Practice</h1>
+          <h2 className="App-subtitle"> Exercise 1 - Passing Data </h2>
         </header>
         <h2>Favorite Movies</h2>
       </div>
